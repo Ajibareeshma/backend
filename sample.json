@@ -1,0 +1,16 @@
+[{
+    "name":"aji",
+    "age":25,
+    "city":"ramanathapuram",
+    "amount":2000
+},{
+    "name":"arun",
+    "age":20,
+    "city":"madurai",
+    "amount":3000
+},{
+    "name":"ranjith",
+    "age":45,
+    "city":"Dindugal",
+    "amount":2000
+}]
