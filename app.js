@@ -1,10 +1,11 @@
 const mongoose = require("mongoose");
 const { v4: uuidv4 } = require("uuid");
 var express = require("express");
+const cors=require("cors");
 const app = express();
 //middleware
 app.use(express.json());
-mongoose.connect("mongodb://localhost:27017/expense").then(() => {
+mongoose.connect("mongodb+srv://ajibareeshma_b:ajibareeshma2023@cluster0.3crfuff.mongodb.net/expense").then(() => {
     console.log("connected to databse");
 });
 const expenseSchema = new mongoose.Schema({
